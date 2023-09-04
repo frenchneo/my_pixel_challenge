@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+html {
+  margin: 0;
+  padding: 0;
+  background: url(https://www.epitech.eu/fr/wp-content/uploads/2019/11/background.jpg)
+    no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.game {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px white dashed;
+}
+#img {
+  position: relative;
+}
+.allsPixel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pixel {
+  width: 10px;
+  height: 10px;
+  background: #245bff;
+  float: left;
+  font-size: 6px;
+  text-align: center;
+  line-height: 10px;
+  box-shadow: 0px 0px 1px 0px #231816;
+}
+.infos {
+  padding-top: 1%;
+  margin: 0 auto;
+}
